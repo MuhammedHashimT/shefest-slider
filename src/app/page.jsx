@@ -1,24 +1,24 @@
 export default function Home() {
   return (
-    <div className="bg-white h-screen w-screen overflow-hidden p-5">
-      <img
-        src="/vertical-lines.png"
-        alt=""
-        className="top-0 left-0 w-80 h-screen absolute"
-      />
-      <div className="flex justify-between items-center">
-        <img
-          src="/logo.svg"
-          alt="logo"
-          className="w-64 h-24 z-10 object-contain"
-        />
-        <div className="text-right">
+    <div className="bg-white flex h-screen w-screen overflow-hidden">
+      <div className="w-80 h-screen flex justify-center items-center ml-10">
+        <img src="/vertical-lines.png" alt="" className="w-80 h-screen absolute" />
+        <div className="w-52 h-52 rounded-full bg-white z-10 flex items-center justify-center">
+          <img src="/logo.svg" alt=" " className="w-40" />
+        </div>
+      </div>
+
+      <div className="flex-col justify-center items-center ml-10 w-full p-10 z-10">
+        <div className="text-center">
+          <div className="flex justify-center">
+            <span className="font-bold bg-yellower px-3 min-w-12 h-8  flex justify-center rounded-full text-white items-center">
+              AA3sw
+            </span>
+          </div>
           <p className="font-black text-3xl">Word Fight English To Arabic</p>
           <p>Aliya Category</p>
         </div>
-      </div>
-      <div>
-        <div className="flex space-between ml-96 mt-16 mr-20 justify-between">
+        <div className="flex space-between justify-between mt-10 items-center ">
           <div className="flex flex-col gap-2 ">
             <div className="flex gap-3 items-center">
               <div className="font-black bg-yellower w-12 h-12 flex justify-center rounded-full text-white items-center">
@@ -31,7 +31,6 @@ export default function Home() {
                   className="rounded-xl h-28 w-28 object-cover"
                 />
                 <p className="flex justify-center absolute bottom-0 w-28">
-                  
                   <span className="bg-yellow  rounded-t-lg px-2 py-1 text-xs ">
                     A Grade
                   </span>
@@ -61,7 +60,6 @@ export default function Home() {
                   className="rounded-xl h-28 w-28 object-cover"
                 />
                 <p className="flex justify-center absolute bottom-0 w-28">
-                  
                   <span className="bg-yellow  rounded-t-lg px-2 py-1 text-xs ">
                     A Grade
                   </span>
@@ -91,7 +89,6 @@ export default function Home() {
                   className="rounded-xl h-28 w-28 object-cover"
                 />
                 <p className="flex justify-center absolute bottom-0 w-28">
-                  
                   <span className="bg-yellow  rounded-t-lg px-2 py-1 text-xs ">
                     A Grade
                   </span>
