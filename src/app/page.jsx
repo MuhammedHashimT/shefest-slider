@@ -2454,7 +2454,7 @@ export default function Home() {
             {
               prg?.candidateProgramme?.filter((item) => item.finalposition === null).map((item, index) => (
 
-                <div className="flex gap-3 items-center">
+                <div key={index} className="flex gap-3 items-center">
                 
                   <div className="relative">
                     <img
