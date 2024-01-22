@@ -31,3 +31,8 @@ body {
     text-wrap: balance;
   }
 }
+
+*{
+  box-sizing: border-box;
+  color: black;
+}
